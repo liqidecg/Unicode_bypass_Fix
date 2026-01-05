@@ -4,7 +4,7 @@ cd kernel-android16-6.12/common
 # 打补丁命令
 patch -p1 < unicode_bypass_fix_xxx.patch
 
-# 说明
+# 说明事项
 设备内核是6.1以下的需要加unicode_bypass_fix2这个补丁，也就是需要加入两个补丁，你是"6.1 6.6 6.12" 设备内核只用加第一个unicode_bypass_fix5.10-6.12通用补丁就可以了
 
 # 警告！
